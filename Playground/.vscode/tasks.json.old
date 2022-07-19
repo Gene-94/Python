@@ -1,8 +1,0 @@
-
-{
-    "version": "0.1.0",
-    "command": "venv/bin/python",
-    "isShellCommand": true,
-    "args": ["${fileBasename}"],
-    "showOutput": "always"
-}
