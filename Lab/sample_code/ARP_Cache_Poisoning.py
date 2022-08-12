@@ -1,12 +1,14 @@
+import os
 import sys
 import time
-from scrapy.all import sendp, ARP, Ether
+from scapy.all import sendp, ARP, Ether
+
 
 if len(sys.argv) < 3:
     print (sys.argv[0] + ": <target> <spoof_ip>")
     sys.exit()
 
-iface = "wlo0"
+iface = "wlo1"
 target_ip = sys.argv[1]
 fake_ip = sys.argv[2]
 
